@@ -1,13 +1,11 @@
 class NewController {
     index(req, res) {
-        res.render('news')
+        res.render('news');
     }
 
     show(req, res) {
-        res.send(`hello ${req.params.slug}`)
+        res.send(`hello ${req.params.slug}`);
     }
-
-
 }
 
-module.exports = new NewController
+module.exports = new NewController();

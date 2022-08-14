@@ -1,11 +1,10 @@
-const newRoute = require('./new')
+const newRoute = require('./new');
 
 function Route(app) {
-    app.use('/news', newRoute)
+    app.use('/news', newRoute);
     // app.get('/', (req, res) => {
     //     res.render('home')
     // })
-
 
     // app.get('/search', (req, res) => {
     //     res.render('search')
