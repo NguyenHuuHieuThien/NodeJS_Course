@@ -29,6 +29,11 @@
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write",
     "*.{js,css,md}": "prettier --write"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6"
