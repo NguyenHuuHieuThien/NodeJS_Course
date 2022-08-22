@@ -1,5 +1,28 @@
 h1 {
-  color: red; }
+  color: red;
+}
 
 h2 {
-  color: green; }
+  color: green;
+}
+
+.card-item {
+  margin-bottom: 20px;
+}
+
+.user {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.img-course {
+  width: 150px;
+  height: 100px;
+}
+
+.select-all-option {
+  width: 160px;
+  margin: 0 16px;
+}
